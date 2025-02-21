@@ -55,6 +55,7 @@ const carriers = ["stamps_com", "ups_walleted", "fedex_walleted"];
 //     }
 //   }
 
+//Promise.all() 을 사용해서 모든 API 요청을 병렬로 실행(5-6초 단축) 
   async function getBestShippingRate(toCity, toPostalCode) {
     let allRates = [];
   
